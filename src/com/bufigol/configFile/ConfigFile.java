@@ -99,4 +99,28 @@ public class ConfigFile {
 			e.printStackTrace();
 		}
 	}
+
+	public Properties getProperties() {
+		return properties;
+	}
+
+	public void setProperties(Properties properties) {
+		this.properties = properties;
+	}
+
+	public String getConfigFile() {
+		return configFile;
+	}
+
+	public void setConfigFile(String configFile) {
+		this.configFile = configFile;
+	}
+
+	public Logger getLogger() {
+		return lg;
+	}
+
+	public void setLogger(Logger lg) {
+		this.lg = lg;
+	}
 }
